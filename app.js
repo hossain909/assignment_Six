@@ -158,8 +158,6 @@ sliderBtn.addEventListener('click', function () {
 const toggleSpinner = () =>{
   const spinner = document.getElementById("spinner")
   const sliders = document.getElementById("sliders")
-  const images = document.getElementsByClassName("images")[0]
   spinner.classList.toggle("d-none")
   sliders.classList.toggle("d-none")
-  images.classList.toggle("d-none")
 }
